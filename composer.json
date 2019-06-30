@@ -1,0 +1,28 @@
+{
+  "name": "yonna/queue",
+  "description": "Yonna 队列",
+  "license": "MIT",
+  "type": "library",
+  "keywords": [
+    "php",
+    "yonna",
+    "framework",
+    "queue"
+  ],
+  "require": {
+    "ext-redis": "*",
+    "php-amqplib/php-amqplib": "2.9.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Yonna\\Queue\\": ""
+    }
+  },
+  "authors": [
+    {
+      "name": "hunzsig",
+      "email": "mzyhaohaoren@qq.com",
+      "homepage": "https://www.hunzsig.org"
+    }
+  ]
+}
