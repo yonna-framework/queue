@@ -10,6 +10,7 @@
     "queue"
   ],
   "require": {
+    "php": "~7.3",
     "ext-redis": "*",
     "php-amqplib/php-amqplib": "2.9.2"
   },
